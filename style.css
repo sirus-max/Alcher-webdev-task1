@@ -147,12 +147,20 @@
 
 #footer{
     text-align: center;
-    width: auto;
+    width:max;
+   
     background-color: rgb(83, 77, 82);
 }
 .social{
-    padding: 40px;
+    padding-top: 30px;
     display: inline-flex;
+    
+    
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.social :hover{
+    transform: scale(1.05);
 }
 .end{
     text-align: center;
