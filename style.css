@@ -1,0 +1,166 @@
+
+
+
+.banner-text {
+    
+   background-position: center;
+    background-image: url("AlcherStream/bg.png") ;
+    background-size: cover;
+    height: 73vh;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+
+}
+.searchbox{
+    width: 500px;
+    height: 20px;
+    background-color:black;
+    margin-left: 100px;
+    margin-right: 320px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    padding-bottom: 4px;
+    padding-top: 10px;
+
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: white solid 1px;
+    color: white;
+    outline: none;
+}
+.banner-text{
+    text-align: center;
+    columns: #fff;
+   
+}
+.banner-text h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke-width: 2px;
+    text-align: center;
+    padding-top: 150px ;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    word-spacing: 7px;
+
+}
+.banner-btn{
+    margin:70px auto 0;
+}
+.banner-btn a{
+    width: 250px;
+    height: 50px;
+    text-decoration: none;
+    display: inline-block;
+
+    padding: 12px;
+
+
+    color: rgb(233, 227, 227);
+    border: .5px solid rgb(212, 28, 212);
+    background-color: rgb(201, 63, 201);
+    border-radius: 6px;
+}
+.pics{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.pic{
+    flex-basis:15%;
+    text-align: left;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 20px;
+    color:rgb(10, 2, 2);
+    transition: transform .5s;
+    
+    
+}
+.pic h6{
+    margin-top: 5px;
+}
+.pic img{
+   width: 100%;
+   box-shadow: 0 0 70px 10px rgba(21, 60, 233, 0.3);
+   border-radius: 7px;
+   
+
+}
+.pic:hover{
+    transform: translateY(10px);
+}
+#movie_list1 {
+    background-color: #fff;
+    text-transform: uppercase;
+    
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.heading1{
+    padding-left: 180px;
+}
+.heading1 hr{
+   
+    margin-right: 180px
+    
+}
+#movie_list1 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#movie_list2 {
+    background-color: #fff;
+    text-transform: uppercase;
+  
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#movie_list2 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#footer{
+    text-align: center;
+    width: auto;
+    background-color: rgb(83, 77, 82);
+}
+.social{
+    padding: 40px;
+    display: inline-flex;
+}
+.end{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: 'Odibee Sans';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
