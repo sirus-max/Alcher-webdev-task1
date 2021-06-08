@@ -92,7 +92,7 @@
 .pic img{
    width: 100%;
    box-shadow: 0 0 70px 10px rgba(21, 60, 233, 0.3);
-   border-radius: 7px;
+   border-radius: 0px;
    
 
 }
